@@ -19,7 +19,6 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is invalid');
 }
-
 export default {
 	/**
 	 * @param {import("@cloudflare/workers-types").Request} request
